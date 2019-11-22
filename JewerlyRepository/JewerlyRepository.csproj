@@ -54,11 +54,16 @@
   <ItemGroup>
     <Compile Include="JewStoreContext.cs" />
     <Compile Include="JewStoreRepository.cs" />
-    <Compile Include="Migrations\201911221332534_InitialCreate.cs" />
-    <Compile Include="Migrations\201911221332534_InitialCreate.designer.cs">
-      <DependentUpon>201911221332534_InitialCreate.cs</DependentUpon>
+    <Compile Include="Migrations\201911221506488_InitialCreate.cs" />
+    <Compile Include="Migrations\201911221506488_InitialCreate.designer.cs">
+      <DependentUpon>201911221506488_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911221522465_MoveTypeToTable.cs" />
+    <Compile Include="Migrations\201911221522465_MoveTypeToTable.designer.cs">
+      <DependentUpon>201911221522465_MoveTypeToTable.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\JewType.cs" />
     <Compile Include="Models\Product.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -67,8 +72,11 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201911221332534_InitialCreate.resx">
-      <DependentUpon>201911221332534_InitialCreate.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201911221506488_InitialCreate.resx">
+      <DependentUpon>201911221506488_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911221522465_MoveTypeToTable.resx">
+      <DependentUpon>201911221522465_MoveTypeToTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
