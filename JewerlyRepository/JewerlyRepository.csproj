@@ -52,6 +52,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interfaces\IJewStoreRepository.cs" />
     <Compile Include="JewStoreContext.cs" />
     <Compile Include="JewStoreRepository.cs" />
     <Compile Include="Migrations\201911221506488_InitialCreate.cs" />
@@ -62,7 +63,12 @@
     <Compile Include="Migrations\201911221522465_MoveTypeToTable.designer.cs">
       <DependentUpon>201911221522465_MoveTypeToTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201911221538599_AddGemstones.cs" />
+    <Compile Include="Migrations\201911221538599_AddGemstones.designer.cs">
+      <DependentUpon>201911221538599_AddGemstones.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Gemstone.cs" />
     <Compile Include="Models\JewType.cs" />
     <Compile Include="Models\Product.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -77,6 +83,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201911221522465_MoveTypeToTable.resx">
       <DependentUpon>201911221522465_MoveTypeToTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911221538599_AddGemstones.resx">
+      <DependentUpon>201911221538599_AddGemstones.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

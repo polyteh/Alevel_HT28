@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JewerlyStore", "JewerlyStor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JewerlyRepository", "JewerlyRepository\JewerlyRepository.csproj", "{BB633B3F-9D04-4C39-B646-B3059E45CDB0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL_Jew", "BLL_Jew\BLL_Jew.csproj", "{C333E97B-F4DC-4BD8-B0E3-2069C8F6D0B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PL_Jew", "PL_Jew\PL_Jew.csproj", "{DE12B697-1CC3-4C03-9A11-EC47F8A8FB4F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{BB633B3F-9D04-4C39-B646-B3059E45CDB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB633B3F-9D04-4C39-B646-B3059E45CDB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB633B3F-9D04-4C39-B646-B3059E45CDB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C333E97B-F4DC-4BD8-B0E3-2069C8F6D0B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C333E97B-F4DC-4BD8-B0E3-2069C8F6D0B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C333E97B-F4DC-4BD8-B0E3-2069C8F6D0B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C333E97B-F4DC-4BD8-B0E3-2069C8F6D0B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE12B697-1CC3-4C03-9A11-EC47F8A8FB4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE12B697-1CC3-4C03-9A11-EC47F8A8FB4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE12B697-1CC3-4C03-9A11-EC47F8A8FB4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE12B697-1CC3-4C03-9A11-EC47F8A8FB4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

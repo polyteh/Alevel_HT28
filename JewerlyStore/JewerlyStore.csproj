@@ -61,9 +61,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\JewerlyRepository\JewerlyRepository.csproj">
-      <Project>{bb633b3f-9d04-4c39-b646-b3059e45cdb0}</Project>
-      <Name>JewerlyRepository</Name>
+    <ProjectReference Include="..\PL_Jew\PL_Jew.csproj">
+      <Project>{de12b697-1cc3-4c03-9a11-ec47f8a8fb4f}</Project>
+      <Name>PL_Jew</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

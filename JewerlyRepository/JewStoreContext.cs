@@ -23,7 +23,7 @@ namespace JewerlyRepository
         public DbSet<JewType> JewTypes { get; set; }
     }
     // I tried use this class to initialize DB for Initial Create configuration, but it doesnt work
-    public class InitialInitializer: DropCreateDatabaseIfModelChanges<JewStoreContext>
+    public class InitialInitializer : DropCreateDatabaseIfModelChanges<JewStoreContext>
     {
         protected override void Seed(JewStoreContext context)
         {
