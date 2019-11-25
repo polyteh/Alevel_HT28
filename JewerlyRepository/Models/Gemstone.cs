@@ -14,6 +14,6 @@ namespace JewerlyRepository.Models
         public string Colour { get; set; }
         public decimal Price { get; set; }
         public int ProductId { get; set; }
-        public virtual Product Product { get; set; }
+        public Product Product { get; set; }
     }
 }

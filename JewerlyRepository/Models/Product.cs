@@ -12,7 +12,7 @@ namespace JewerlyRepository.Models
         public string Name { get; set; }
         public decimal Price { get; set; }
         public int JewTypeId { get; set; }
-        public virtual JewType JewType { get; set; }
-        public virtual ICollection<Gemstone> Gemstone { get; set; }
+        public  JewType JewType { get; set; }
+        public ICollection<Gemstone> Gemstone { get; set; }
     }
 }
